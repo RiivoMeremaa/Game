@@ -10,4 +10,9 @@ class GameStats():
         
     def reset_stats(self):
         """Initialize score, which can change during the game"""
+
         self.score = 0
+
+        self.score = 0
+        #ye
+

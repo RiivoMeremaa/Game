@@ -3,7 +3,10 @@ import pygame.font
 
 class Button():
     """Class for button object"""
+
     
+
+    #ye
     
     def __init__(self, game_settings, screen, msg):
         """Init button atributes"""

@@ -29,6 +29,14 @@ class Player(pygame.sprite.Sprite):
             self.rect.move_ip(0, -10)
         if self.moving_down:
             self.rect.move_ip(0, 10)
+            self.rect.move_ip(11, 0)
+        if self.moving_left:
+            self.rect.move_ip(-11, 0)
+        if self.moving_up:
+            self.rect.move_ip(0, -11)
+        if self.moving_down:
+            self.rect.move_ip(0, 11)
+
            
         if self.moving_left and self.rect.left < 0:
             self.rect.left = 0
